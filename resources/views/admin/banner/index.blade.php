@@ -64,10 +64,9 @@
 								src="/img/delete.png" banner_id="{{$itme->id}}"></td>
 						</tr>
                         @endforeach
-                        <tr><td class="aaa" colspan="6">{{$data->links()}}</td></tr>
 					</table>
-					<div class="paging">
-                    </div>
+					<div class="aaa">
+                    {{$data->links()}}</div>
 				</div>
 				<!-- banner 表格 显示 end-->
 			</div>
